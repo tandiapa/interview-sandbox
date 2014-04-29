@@ -1,0 +1,11 @@
+@startColor : #D35400;
+
+h1 {
+	animation : blink 3.5s ease-in-out infinite;
+}
+
+@keyframes blink {
+  0% {color:@startColor;}
+  50% {color: lighten(@startColor, 40%);}
+  100% {color: @startColor;}
+}

@@ -1,0 +1,11 @@
+.idea/
+*.iml
+node_modules/
+src/vendor/
+src/css/*.css
+bower_components/
+coverage/
+npm-debug.log
+
+dist
+.tmp
